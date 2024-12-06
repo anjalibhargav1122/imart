@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.fontfamily {
+    font-family: "Pacifico", cursive;
+}
+
+
+.txt:hover .icn {
+    animation: circle 1s linear;
+}
+
+
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+
+        transform: rotate(60deg);
+        font-size: 0.95rem;
+    }
+
+    40% {
+
+        transform: rotate(120deg);
+        font-size: 1.05rem;
+    }
+
+    60% {
+
+        transform: rotate(180deg);
+        font-size: 1.15rem;
+    }
+
+    80% {
+
+        transform: rotate(240deg);
+        font-size: 1.25rem;
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+        font-size: 1.35rem;
+    }
+}
